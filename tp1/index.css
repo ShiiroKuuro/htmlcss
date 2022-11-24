@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: grid;
+    background-color: lightblue;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.h1goutte{
+    justify-items: center;
+    grid-column: 2 / 3;
+    color: rgb(1, 1, 56);
+    margin-top: 60px;
+    text-align: center;
+}
+.goutte{
+    width: 120px;
+    height:170px;
+    grid-column: 1 / 2;
+    margin-top: -90px;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: teal;
+}
+details{
+    grid-column: 3 / 4;
+    text-align: center;
+    margin-top: -40px;
+}
+ul{
+    list-style-type: none;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.bienvenue{
+    line-height: 60px;
+    text-align: center;
+    grid-column: 1 / 4;
+}
+.aside{
+    grid-column: 4 / 5;
+}
+.gouttedoree{
+    height: 180px;
+    width: 150px;
+    margin-left: 90px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 3em;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
